@@ -48,9 +48,11 @@ const App = () => {
       case 'sunny':
         return 'https://images.unsplash.com/photo-1563630381190-77c336ea545a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=389&q=80';
       case 'partly cloudy':
-        return 'https://images.unsplash.com/photo-1500390365106-166bb67248d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80';
+        return 'https://images.unsplash.com/photo-1604042404568-ebbc6bfed7bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80';
+      case 'cloudy':
+          return 'https://images.unsplash.com/photo-1500390365106-166bb67248d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80';
       case 'rainy':
-        return 'url_to_rainy_image';
+        return 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1951&q=80';
       case 'clear':
         return 'https://images.unsplash.com/photo-1528757980793-e9642d47816a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMwfHxzdW4lMjBpbiUyMHNreXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60';
       case 'overcast':
