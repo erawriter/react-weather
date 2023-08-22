@@ -1,38 +1,80 @@
-.App {
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height instead of height for responsiveness */
+  background: url("https://images.unsplash.com/photo-1586740070162-41777c99457f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80") no-repeat center center;
+  background-size: cover; /* Stretch the image to cover the entire container */
+}
+
+.weather-display {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-display h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-display .temperature {
+  font-size: 48px;
+  font-weight: bold;
+  color: #007bff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weather-display .condition {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #555555;
+}
+
+.weather-display .alert-message {
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
+
+.search-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.search-bar button {
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #007bff;
   color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
