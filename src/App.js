@@ -56,7 +56,9 @@ const App = () => {
       case 'clear':
         return 'https://images.unsplash.com/photo-1528757980793-e9642d47816a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMwfHxzdW4lMjBpbiUyMHNreXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60';
       case 'overcast':
-          return 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1951&q=80';
+        return 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1951&q=80';
+      case 'rain':
+        return 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhdnklMjByYWluJTIwd2l0aCUyMHRodW5kZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60';
         // more cases for other weather conditions
       default:
         return null;
